@@ -1,0 +1,58 @@
+/* Định dạng tổng thể */
+.mt-10 {
+    margin-top: 100px;
+}
+.skill-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-color: #f5e8da;
+}
+
+.skill-card {
+    background: #ffffff;
+    padding: 60px 50px;
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1);
+    max-width: 725px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    /* gap: 112px; */
+}
+
+/* Tiêu đề */
+.skill-title {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+/* Grid Layout */
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 5px; /* Khoảng cách giữa các cột và hàng */
+}
+
+/* Mục danh sách */
+.skill-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Ô vuông màu xanh */
+.skill-square {
+    width: 13px;
+    height: 13px;
+    background-color: blue;
+    margin-right: 8px;
+}
+
+/* Màu chữ phụ */
+.skill-gray-text {
+    color: gray;
+}

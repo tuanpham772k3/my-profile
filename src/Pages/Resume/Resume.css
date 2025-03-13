@@ -1,0 +1,132 @@
+/* resume.css */
+.resume {
+    background-color: #e3d7c7;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 110px 0 85px 0;
+}
+
+.resume-container {
+    max-width: 725px;
+    width: 100%;
+}
+
+.resume-title {
+    margin: 130px 0 110px 0;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 112px;
+}
+
+.resume-box {
+    margin-bottom: 112px;
+}
+
+.resume-subtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 58px;
+}
+.resume-subtitle span {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.resume-subtitle button {
+    width: 154px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #0050ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    transition:
+        background-color 0.3s ease-in-out,
+        transform 0.3s ease-in-out;
+}
+.resume-subtitle button:hover {
+    color: #000000;
+    border: 2px solid #0050ff;
+    background-color: #e3d7c7;
+    transform: scale(1.05);
+}
+
+.resume-square {
+    width: 20px;
+    height: 20px;
+    background-color: #0050ff;
+    /* display: inline-block; */
+}
+
+.download-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.experience-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.experience-card {
+    background-color: white;
+    height: 370px;
+    padding: 50px;
+    display: flex;
+    gap: 100px;
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+
+.experience-info {
+    text-align: left;
+    flex: 1;
+    margin-top: 40px;
+}
+
+.job-duration {
+    color: #0050ff;
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.job-title {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.company-name,
+.company-location {
+    color: gray;
+    font-size: 14px;
+}
+
+.experience-description {
+    flex: 2;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
