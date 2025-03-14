@@ -5,6 +5,7 @@ import About from "./Pages/About/About";
 import Footer from "./components/Footer/Footer";
 import Resume from "./Pages/Resume/Resume";
 import ProjectsPage from "./Pages/Projects/ProjectsPage";
+import Contact from "./Pages/Contact/Contact";
 import "./App.css";
 import { AnimatePresence } from "framer-motion";
 import { useEffect } from "react";
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/" element={<About />} />
                     <Route path="/resume" element={<Resume />} />
                     <Route path="/projects" element={<ProjectsPage />} />
+                    <Route path="/contact" element={<Contact />} />
                 </Routes>
                 <Footer />
             </AnimatePresence>

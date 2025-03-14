@@ -1,0 +1,27 @@
+.contact {
+    background-color: #e3d7c7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0 65px;
+}
+.contact-container {
+    max-width: 678px;
+    width: 100%;
+}
+.contact-heading {
+    margin-top: 130px;
+    margin-bottom: 78px;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.contact-square {
+    width: 20px;
+    height: 20px;
+    background-color: #0050ff;
+}

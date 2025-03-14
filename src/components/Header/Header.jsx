@@ -59,9 +59,9 @@ const Header = () => {
                                     className={({ isActive }) =>
                                         isActive ? "nav-link active-link" : "nav-link"
                                     }
-                                    to="/context"
+                                    to="/contact"
                                 >
-                                    Context
+                                    Contact
                                 </NavLink>
                             </li>
                         </ul>
